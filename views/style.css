@@ -1,0 +1,66 @@
+.registerbtn {
+    background-color:black;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .registerbtn2 {
+    background-color:black;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    text-align: center;
+
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+
+  .container {
+    padding: 16px;
+  }
+
+
+  #contactGrid{
+    display: grid;
+    gap: 1rem;
+}
+
+#divGrid{
+    display: grid;
+    gap: 1rem;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+.center-button {
+    display: table;
+    margin: 0 auto;
+}
